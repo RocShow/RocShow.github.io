@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var $projects = $('.projects'),
-        $aboutUs = $('.aboutUs'),
+        $aboutUs = $('.aboutMe'),
         $contactUs = $('.contactUs'),
         $details = $('#details'),
         $mask = $('.mask'),

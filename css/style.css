@@ -115,127 +115,78 @@ img{
 #banner #contact .text{
     border-left: 1px solid rgb(216,219,222);
 }
-
-/*projects*/
-.projects{
-    min-width: 1252px;
+#banner .text#intro{
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#eeeeee;
+    text-align: left;
+    font-size: 18px;
+    font-family: arial;
+    text-indent: 40px;
+    line-height: 30px;
+    text-shadow:2px 2px 3px #000000;
 }
-.projects .rect{
-    max-width:1815px;
-    width:100%;
-    float:left;
+
+/* aboutMe */
+.aboutMe{
+    background-color: #eeeeee;
 }
 
 /* abilities */
-.projects #abilities{
-    height:621px;
-    margin-bottom: -74px;
+.aboutMe #abilities{
+    padding-top: 50px;
+    padding-bottom: 100px;
     background-color: rgb(238,238,238);
 }
-.projects #abilities #joinus{
+.aboutMe #abilities #joinus{
     margin-top:82px;
     margin-bottom: 80px;
     text-align: center;
     color:#1c90e2;
     font-size: 66px;
 }
-.projects #abilities .block .ability{
+.aboutMe #abilities .block .ability{
     float:left;
     position:relative;
     width:210px;
     margin-right: 46px;
 }
-.projects #abilities .block .ability#geek{
+.aboutMe #abilities .block .ability#geek{
     margin-right: 0px;
 }
-.projects #abilities .block .ability .icon{
+.aboutMe #abilities .block .ability .icon{
     text-align: center;
     margin-bottom: 32px;
 }
-.projects #abilities .block .ability .title{
+.aboutMe #abilities .block .ability .title{
     margin-bottom: 34px;
     color:#222222;
     font-size: 30px;
-    font-family: 黑体;
+    font-family: Arial;
     text-align: center;
 }
-.projects #abilities .block .ability .description span{
+.aboutMe #abilities .block .ability .description span{
     display: block;
     margin-bottom: 10px;
     color:#505050;
     font-size: 14px;
-    font-family: 黑体;
+    font-family: Arial;
     font-weight: lighter;
     text-align: center; 
 }
-/* projects hexagon */
-.projects .hexagon{
-    position: relative;
-    width:1252px;
-    height:147px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:-73px;
-    cursor:pointer;
-}
-.projects .hexagon img{
-    position: relative;
-    left:50%;
-    margin-left:-63px;
-}
-/* projects pics */
-.projects #pics .wrapper{
-    width:980px;
-    background-color: #1c90e2;
-}
-.projects #pics .pic{
-    opacity: 1;
-    border: 1px solid #ffffff;
-}
-.projects #pics img{
-    margin-left: -1px;
-    margin-top: -1px;
-}
-.projects #pics #wages{
-    float:left;
-    width: 396px;
-    height: 629px;
-}
-.projects #pics #mac{
-    float:left;
-    width: 580px;
-    height: 289px;
-}
-.projects #pics #entertainment{
-    float:left;
-    width: 580px;
-    height: 338px;
-}
-.projects #pics #activity{
-    float:left;
-    width: 978px;
-    height: 447px;
-}
-.projects #pics #meeting{
-    float:left;
-    width: 510px;
-    height: 415px;
-}
-.projects #pics #snack{
-    float:left;
-    width: 466px;
-    height: 415px;
-}
-.projects #pics #chair{
-    float:left;
-    width: 510px;
-    height: 311px;
-}
 
-.projects #pics #more{
+/*projects*/
+.projects{
+    min-width: 1252px;
+    display: none;
+}
+.projects .rect{
+    max-width:1815px;
+    width:100%;
     float:left;
-    width: 466px;
-    height: 311px;
 }
 
 /* projects positions */
@@ -267,7 +218,7 @@ img{
     line-height: 52px;
     color:#ffffff;
     font-size: 24px;
-    font-family: 黑体;
+    font-family: Arial;
 }
 .projects #positions #jobs .position .description{
     position:relative;
@@ -279,7 +230,7 @@ img{
     padding-right: 20px;
     color:#ffffff;
     font-size: 14px;
-    font-family: 黑体;
+    font-family: Arial;
     font-weight: lighter;
     line-height: 24px;
 }
@@ -296,7 +247,7 @@ img{
     text-align: center;
     line-height: 33px;
     font-size: 16px;
-    font-family: 黑体;
+    font-family: Arial;
     font-weight: lighter;
     cursor:pointer;
 }
@@ -384,7 +335,7 @@ img{
     border-bottom: 1px solid #eeeeee;
     color:#222222;
     font-size: 30px;
-    font-family: 黑体;
+    font-family: Arial;
 }
 .projects #details .positions{
     float:left;
@@ -397,7 +348,7 @@ img{
     border-bottom: 1px solid #eeeeee;
     color:#222222;
     font-size: 18px;
-    font-family: 黑体;
+    font-family: Arial;
     line-height:56px;
 }
 .projects #details .positions .position.active{
@@ -420,7 +371,7 @@ img{
     margin-bottom: 22px;
     color:#207ddd;
     font-size: 24px;
-    font-family: 黑体;
+    font-family: Arial;
 }
 .projects #details .details .apply{
     float:right;
@@ -439,73 +390,28 @@ img{
     text-decoration: none;
     color:#ffffff;
     font-size: 15px;
-    font-family: 黑体;
+    font-family: Arial;
     line-height: 36px;
 }
 .projects #details .details .item{
     margin-bottom: 18px;
     color:#707070;
     font-size: 22px;
-    font-family: 黑体;
+    font-family: Arial;
     font-weight: lighter;
 }
 .projects #details .details .item-description{
     margin-bottom: 42px;
     color:#707070;
     font-size: 14px;
-    font-family: 黑体;
+    font-family: Arial;
     font-weight: lighter;
     line-height: 24px;
 }
 .projects #details .details .priority{
     display:none;
 }
-/* aboutUs */
-.aboutUs{
-    background-color: #ffffff;
-    padding-bottom: 100px;
-    display: none;
-}
-.aboutUs .about{
-    margin-top: 82px;
-    margin-bottom: 72px;
-}
-.aboutUs .item{
-    clear:both; 
-    border-top: 1px solid #eeeeee;
-}
-.aboutUs .item#fengyun{
-    border-top: 0px solid #eeeeee;
-}
-.aboutUs .item .pic{
-    float:left;
-    margin-right: 77px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-.aboutUs .item#fengyun .pic{
-    margin-top: 8px;
-}
-.aboutUs .item#fengyun .title{
-    margin-top: 0px;
-}
-.aboutUs .item .title{
-    float:left;
-    margin-top: 114px;
-    margin-bottom: 10px;
-    color:#1c90e2;
-    font-size: 24px;
-    font-family: 黑体;
-}
-.aboutUs .item .details{
-    float:left;
-    width:719px;
-    color:#505050;
-    font-size: 14px;
-    font-family: 黑体;
-    font-weight: lighter;
-    line-height: 22px;
-}
+
 /* contactUs */
 .contactUs{
     position: absolute;
@@ -554,6 +460,6 @@ img{
 .contactUs .content ul li{
     color:#505050;
     font-size: 14px;
-    font-family: 黑体;
+    font-family: Arial;
     line-height: 29px;
 }
