@@ -65,18 +65,19 @@ img{
 
 }
 #banner #logo a#logo{
+    color:black;
     display: block;
     width:400px;
     height:53px;
-    margin:19px 10px 34px 46px;
+    margin:19px 10px 34px 76px;
 }
 #banner #logo a:visited {
     color: inherit;
 }
 #banner #logo div{
     float: left;
-    font-size: 50px;
-    font-family: Chalkboard;
+    font-size: 45px;
+    font-family: Monaco;
     line-height: 20px;
     margin-top: 26px;
     margin-left: 20px;
@@ -88,31 +89,31 @@ img{
 
 #banner .menu-item{
     cursor: pointer;
-    width:258px;
+    width:180px;
     height:106px;
 }
 #banner .menu-item.hover{
     cursor: pointer;
-    width:258px;
     border-bottom: 4px solid #1c90e2;
 }
 #banner .menu-item .text{
     margin-top:45px;
     font-size: 18px;
-    font-family: Chalkboard;
+    font-family: Monaco;
     font-weight: bold;
     color:#505050;
     text-align: center;
     text-decoration: none;
 }
-#banner #projects{
+#banner #projects .text{
+    border-right: 1px solid rgb(216,219,222);
 }
 #banner #about .text{
     border-left: 1px solid rgb(216,219,222);
     border-right: 1px solid rgb(216,219,222);
 }
-#banner #contact{
-
+#banner #contact .text{
+    border-left: 1px solid rgb(216,219,222);
 }
 
 /*projects*/
