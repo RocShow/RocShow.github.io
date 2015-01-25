@@ -1,0 +1,558 @@
+/* css3 */
+body{
+    margin: 0;
+}
+img{
+    border:0px;
+}
+.box{
+    min-width: 1252px;
+    max-width: 1816px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper{
+    width:978px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blank{
+    clear:both;
+}
+.mask{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index: 1;
+    min-width: 1252px;
+    width:100%;
+    height:100%;
+    background-color: #000000;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+    opacity: 0.7;
+    display: none;
+}
+
+/* banner */
+#banner{
+    min-width: 1252px;
+    max-width: 1816px;
+    height:452px;
+    background: url("../images/bg_banner.png") center center;
+    /*background-size:cover;*/
+}
+#banner .menu{
+    width:1252px;
+    height:110px;
+    margin-left:auto;
+    margin-right:auto;
+    /*不透明度渐变*/
+    background:white; 
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);/* 一些不支持背景渐变的浏览器 */ 
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.85) 0%,rgba(255, 255, 255, 0.9) 100%); /* IE10+ */
+    background: linear-gradient(top, rgba(255, 255, 255, 0.85) 0%,rgba(255, 255, 255, 0.9) 100%); /* W3C */
+    background:-moz-linear-gradient(top, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.9)); 
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0.9)));
+    /*圆角*/
+    -moz-border-radius: 5px;      /* Gecko */
+    -webkit-border-radius: 5px;   /* Webkit */
+    border-radius:5px;            /* W3C */
+}
+#banner .item{
+    float:left;
+}
+#banner #logo{
+
+}
+#banner #logo a#logo{
+    display: block;
+    width:400px;
+    height:53px;
+    margin:19px 10px 34px 46px;
+}
+#banner #logo a:visited {
+    color: inherit;
+}
+#banner #logo div{
+    float: left;
+    font-size: 50px;
+    font-family: Chalkboard;
+    line-height: 20px;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+#banner #logo img {
+    float: left;
+    width:80px;
+}
+
+#banner .menu-item{
+    cursor: pointer;
+    width:258px;
+    height:106px;
+}
+#banner .menu-item.hover{
+    cursor: pointer;
+    width:258px;
+    border-bottom: 4px solid #1c90e2;
+}
+#banner .menu-item .text{
+    margin-top:45px;
+    font-size: 18px;
+    font-family: Chalkboard;
+    font-weight: bold;
+    color:#505050;
+    text-align: center;
+    text-decoration: none;
+}
+#banner #projects{
+}
+#banner #about .text{
+    border-left: 1px solid rgb(216,219,222);
+    border-right: 1px solid rgb(216,219,222);
+}
+#banner #contact{
+
+}
+
+/*projects*/
+.projects{
+    min-width: 1252px;
+}
+.projects .rect{
+    max-width:1815px;
+    width:100%;
+    float:left;
+}
+
+/* abilities */
+.projects #abilities{
+    height:621px;
+    margin-bottom: -74px;
+    background-color: rgb(238,238,238);
+}
+.projects #abilities #joinus{
+    margin-top:82px;
+    margin-bottom: 80px;
+    text-align: center;
+    color:#1c90e2;
+    font-size: 66px;
+}
+.projects #abilities .block .ability{
+    float:left;
+    position:relative;
+    width:210px;
+    margin-right: 46px;
+}
+.projects #abilities .block .ability#geek{
+    margin-right: 0px;
+}
+.projects #abilities .block .ability .icon{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.projects #abilities .block .ability .title{
+    margin-bottom: 34px;
+    color:#222222;
+    font-size: 30px;
+    font-family: 黑体;
+    text-align: center;
+}
+.projects #abilities .block .ability .description span{
+    display: block;
+    margin-bottom: 10px;
+    color:#505050;
+    font-size: 14px;
+    font-family: 黑体;
+    font-weight: lighter;
+    text-align: center; 
+}
+/* projects hexagon */
+.projects .hexagon{
+    position: relative;
+    width:1252px;
+    height:147px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:-73px;
+    cursor:pointer;
+}
+.projects .hexagon img{
+    position: relative;
+    left:50%;
+    margin-left:-63px;
+}
+/* projects pics */
+.projects #pics .wrapper{
+    width:980px;
+    background-color: #1c90e2;
+}
+.projects #pics .pic{
+    opacity: 1;
+    border: 1px solid #ffffff;
+}
+.projects #pics img{
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.projects #pics #wages{
+    float:left;
+    width: 396px;
+    height: 629px;
+}
+.projects #pics #mac{
+    float:left;
+    width: 580px;
+    height: 289px;
+}
+.projects #pics #entertainment{
+    float:left;
+    width: 580px;
+    height: 338px;
+}
+.projects #pics #activity{
+    float:left;
+    width: 978px;
+    height: 447px;
+}
+.projects #pics #meeting{
+    float:left;
+    width: 510px;
+    height: 415px;
+}
+.projects #pics #snack{
+    float:left;
+    width: 466px;
+    height: 415px;
+}
+.projects #pics #chair{
+    float:left;
+    width: 510px;
+    height: 311px;
+}
+
+.projects #pics #more{
+    float:left;
+    width: 466px;
+    height: 311px;
+}
+
+/* projects positions */
+.projects #positions{
+    height:517px;
+    background-color: #eeeeee;
+}
+.projects #positions .wrapper{
+    border:1px solid transparent;
+}
+.projects #positions #needyou{
+    margin-top: 82px;
+    margin-bottom: 114px;
+    text-align: center;
+    color:#1c90e2;
+    font-size: 66px;
+}
+.projects #positions #jobs .position{
+    float: left;
+    width: 210px;
+    margin-right: 46px;
+}
+.projects #positions #jobs .position#administrator{
+    margin-right: 0px;
+}
+.projects #positions #jobs .position .title{
+    height:52px;
+    text-align: center;
+    line-height: 52px;
+    color:#ffffff;
+    font-size: 24px;
+    font-family: 黑体;
+}
+.projects #positions #jobs .position .description{
+    position:relative;
+    height: 192px;
+}
+.projects #positions #jobs .position .description .details{
+    padding-top: 31px;
+    padding-left: 26px;
+    padding-right: 20px;
+    color:#ffffff;
+    font-size: 14px;
+    font-family: 黑体;
+    font-weight: lighter;
+    line-height: 24px;
+}
+.projects #positions #jobs .position .description .view{
+    position:absolute;
+    top:142px;
+    left:55px;
+    width: 98px;
+    height: 33px;
+    /*圆角*/
+    -moz-border-radius: 5px;      /* Gecko */
+    -webkit-border-radius: 5px;   /* Webkit */
+    border-radius:5px;            /* W3C */
+    text-align: center;
+    line-height: 33px;
+    font-size: 16px;
+    font-family: 黑体;
+    font-weight: lighter;
+    cursor:pointer;
+}
+.projects #positions #jobs .position#engineer .title{
+    background-color: #f1bc12;
+    color:#ffffff;
+    text-shadow:#e1ae0e 0px 1px 1px;
+}
+.projects #positions #jobs .position#engineer .description{
+    background-color: #fec613;
+}
+.projects #positions #jobs .position#engineer .description .view{
+    background-color: #ffffff;
+    border-bottom: 1px solid #dfad0e;
+    color:#f1bc12;
+}
+.projects #positions #jobs .position#designer .title{
+    background-color: #81cdac;
+    text-shadow:#79cba6 0px 1px 1px;
+}
+.projects #positions #jobs .position#designer .description{
+    background-color: #88d8b5;
+}
+.projects #positions #jobs .position#designer .description .view{
+    background-color: #ffffff;
+    border-bottom: 1px solid #6dc19d;
+    color:#81cdac;
+}
+.projects #positions #jobs .position#operator .title{
+    background-color: #d25959;
+    text-shadow:#c84e4e 0px 1px 1px;
+}
+.projects #positions #jobs .position#operator .description{
+    background-color: #df5f5f;
+}
+.projects #positions #jobs .position#operator .description .view{
+    background-color: #ffffff;
+    border-bottom: 1px solid #c84e4e;
+    color:#d25959;
+}
+.projects #positions #jobs .position#administrator .title{
+    background-color: #4b98ca;
+    text-shadow:#4b98ca 1px 1px 1px;
+}
+.projects #positions #jobs .position#administrator .description{
+    background-color: #50a1d7;
+}
+.projects #positions #jobs .position#administrator .description .view{
+    background-color: #ffffff;
+    border-bottom: 1px solid #4b98ca;
+    color:#489bca;
+}
+.projects .wrapper#triangle{
+    height:67px;
+    background-color: #eeeeee;
+    max-width: 1815px;
+    width:100%;
+    min-width: 1252px;
+    border-bottom: 2px solid #dbdbdb;
+}
+.projects .smallWrapper{
+    width: 978px;
+    height:67px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects .triangle{
+    position:relative;
+    float:left;
+    width:210px;
+    height:67px;
+    margin-top: 2px;
+    background: url("../images/triangle.png");
+    display:none;
+}
+/*  projects details */
+.projects #details{
+    margin-bottom: 85px;
+    background-color: #ffffff;
+    display: none;
+}
+.projects #details .title{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eeeeee;
+    color:#222222;
+    font-size: 30px;
+    font-family: 黑体;
+}
+.projects #details .positions{
+    float:left;
+    cursor:pointer;
+}
+.projects #details .positions .position{
+    width:200px;
+    height:56px;
+    padding-left: 10px;
+    border-bottom: 1px solid #eeeeee;
+    color:#222222;
+    font-size: 18px;
+    font-family: 黑体;
+    line-height:56px;
+}
+.projects #details .positions .position.active{
+    color:#207ddd;
+}
+.projects #details .details{
+    float:left;
+    width:715px;
+    padding-left: 46px;
+    border-left: 1px solid #eeeeee;
+}
+.projects #details .details div{
+    clear:both;
+}
+.projects #details .details .name{
+    float:left;
+    clear:none;
+    width:605px;
+    margin-top: 18px;
+    margin-bottom: 22px;
+    color:#207ddd;
+    font-size: 24px;
+    font-family: 黑体;
+}
+.projects #details .details .apply{
+    float:right;
+    width: 108px;
+    height: 36px;
+    margin-top: 15px;
+    background-color: #207ddd;
+    border:1px solid #0c5db1;
+    text-align: center;
+    /*圆角*/
+    -moz-border-radius: 5px;      /* Gecko */
+    -webkit-border-radius: 5px;   /* Webkit */
+    border-radius:5px;            /* W3C */
+}
+.projects #details .details .apply a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 15px;
+    font-family: 黑体;
+    line-height: 36px;
+}
+.projects #details .details .item{
+    margin-bottom: 18px;
+    color:#707070;
+    font-size: 22px;
+    font-family: 黑体;
+    font-weight: lighter;
+}
+.projects #details .details .item-description{
+    margin-bottom: 42px;
+    color:#707070;
+    font-size: 14px;
+    font-family: 黑体;
+    font-weight: lighter;
+    line-height: 24px;
+}
+.projects #details .details .priority{
+    display:none;
+}
+/* aboutUs */
+.aboutUs{
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    display: none;
+}
+.aboutUs .about{
+    margin-top: 82px;
+    margin-bottom: 72px;
+}
+.aboutUs .item{
+    clear:both; 
+    border-top: 1px solid #eeeeee;
+}
+.aboutUs .item#fengyun{
+    border-top: 0px solid #eeeeee;
+}
+.aboutUs .item .pic{
+    float:left;
+    margin-right: 77px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.aboutUs .item#fengyun .pic{
+    margin-top: 8px;
+}
+.aboutUs .item#fengyun .title{
+    margin-top: 0px;
+}
+.aboutUs .item .title{
+    float:left;
+    margin-top: 114px;
+    margin-bottom: 10px;
+    color:#1c90e2;
+    font-size: 24px;
+    font-family: 黑体;
+}
+.aboutUs .item .details{
+    float:left;
+    width:719px;
+    color:#505050;
+    font-size: 14px;
+    font-family: 黑体;
+    font-weight: lighter;
+    line-height: 22px;
+}
+/* contactUs */
+.contactUs{
+    position: absolute;
+    z-index: 2;
+    top:50%;
+    left:50%;
+    margin-left: -316px;
+    margin-top: -131px;
+    width:632px;
+    height:262px;
+    background: url("../images/contactUs_bg.png");
+    /*圆角*/
+    -moz-border-radius: 10px;      /* Gecko */
+    -webkit-border-radius: 10px;   /* Webkit */
+    border-radius: 10px;            /* W3C */
+    display: none;
+}
+.contactUs .top{
+    height:65px;
+    background-color: #ffffff;
+    border-bottom:1px solid #ebebeb;
+    border-top:1px solid transparent;
+    /*圆角*/
+    -moz-border-radius: 10px 10px 0px 0px;      /* Gecko */
+    -webkit-border-radius: 10px 10px 0px 0px;   /* Webkit */
+    border-radius: 10px 10px 0px 0px;            /* W3C */
+}
+.contactUs .top #icon{
+    margin-top:19px;
+    margin-left: 42px;
+}
+.contactUs .top #text{
+    margin-top:19px;
+    margin-left: 10px;
+}
+.contactUs .top #close{
+    float:right;
+    margin-top:12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.contactUs .content ul{
+    margin-left: 42px;
+    padding-left: 20px;
+}
+.contactUs .content ul li{
+    color:#505050;
+    font-size: 14px;
+    font-family: 黑体;
+    line-height: 29px;
+}
