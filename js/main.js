@@ -1,26 +1,37 @@
 $(document).ready(function(){
-    var $projects = $('.projects'),
+    var $banner = $('#banner'),
+        $intro = $('#intro'),
+        $projects = $('.projects'),
         $aboutUs = $('.aboutMe'),
         $contactUs = $('.contactUs'),
         $details = $('#details'),
         $mask = $('.mask'),
         $triangle = $('.projects .triangle'),
-        $pic = $('#pics');
+        $pic = $('#pics'),
+        $resume = $(".Resume"),
+        $resumeWrapper = $(".Resume .wrapper");
+        $resumeWrapper.load('resume.html');
     var tirangleLocations = ["0px","256px","512px","768px"];
     var firstTime = true;
 
     /*设置菜单点击事件*/
     $('#banner .menu-item#projects').on('click',function(){
         $aboutUs.hide();
-        $projects.show(0,function(){
-            $("body,html").animate({scrollTop:$projects.offset().top - 50},300);
-        });
+        $resume.hide();
+        shrinkBanner();
+        $projects.show();
     });
     $('#banner .menu-item#about').on('click',function(){
         $projects.hide();
-        $aboutUs.show(0,function(){
-            $("body,html").animate({scrollTop:$aboutUs.offset().top - 100},300);
-        });
+        $resume.hide();
+        expandBanner();
+        $aboutUs.show();
+    });
+        $('#banner .menu-item#resume').on('click',function(){
+        $projects.hide();
+        $aboutUs.hide();
+        shrinkBanner();
+        $resume.show();
     });
     $('#banner .menu-item#contact').on('click',function(){
         $mask.show();
@@ -107,5 +118,17 @@ $(document).ready(function(){
             var scroll_offset = $details.offset();  
             $("body,html").animate({scrollTop:scroll_offset.top - 327},300);
         }
+    }
+
+    function shrinkBanner(){
+        $banner.animate({'height':'120px'},500, function(){
+            $intro.hide();
+        });
+    }
+    function expandBanner(){
+        $intro.show();
+        $banner.animate({'height':'452px'},700, function(){
+            $intro.show();
+        });
     }
 });

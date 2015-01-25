@@ -1,6 +1,7 @@
 /* css3 */
 body{
     margin: 0;
+    overflow-y:scroll;
 }
 img{
     border:0px;
@@ -191,7 +192,8 @@ img{
 
 /* projects positions */
 .projects #positions{
-    height:517px;
+    padding-top: 50px;
+    height:280px;
     background-color: #eeeeee;
 }
 .projects #positions .wrapper{
@@ -206,7 +208,7 @@ img{
 }
 .projects #positions #jobs .position{
     float: left;
-    width: 210px;
+    width: 209px;
     margin-right: 46px;
 }
 .projects #positions #jobs .position#administrator{
@@ -220,6 +222,10 @@ img{
     font-size: 24px;
     font-family: Arial;
 }
+.projects #positions #jobs .position .title#independent{
+    line-height:25px;
+}
+
 .projects #positions #jobs .position .description{
     position:relative;
     height: 192px;
@@ -412,6 +418,10 @@ img{
     display:none;
 }
 
+.Resume{
+    display:none;
+}
+
 /* contactUs */
 .contactUs{
     position: absolute;
@@ -440,12 +450,18 @@ img{
     border-radius: 10px 10px 0px 0px;            /* W3C */
 }
 .contactUs .top #icon{
+    float:left;
     margin-top:19px;
     margin-left: 42px;
 }
 .contactUs .top #text{
+    float:left;
     margin-top:19px;
     margin-left: 10px;
+    font-size: 25px;
+    font-family: Arial;
+    line-height: 25px;
+    color: rgb(28,144,226);
 }
 .contactUs .top #close{
     float:right;
