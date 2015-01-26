@@ -79,6 +79,7 @@ img{
     float: left;
     font-size: 45px;
     font-family: Monaco;
+    font-weight: bold;
     line-height: 20px;
     margin-top: 26px;
     margin-left: 20px;
@@ -91,7 +92,7 @@ img{
 #banner .menu-item{
     cursor: pointer;
     width:180px;
-    height:106px;
+    height:110px;
 }
 #banner .menu-item.hover{
     cursor: pointer;
@@ -117,7 +118,7 @@ img{
     border-left: 1px solid rgb(216,219,222);
 }
 #banner .text#intro{
-    padding-top: 80px;
+    margin-top: 80px;
     padding-left: 100px;
     padding-right: 100px;
     margin-left: auto;
@@ -125,7 +126,7 @@ img{
     color:#eeeeee;
     text-align: left;
     font-size: 18px;
-    font-family: arial;
+    font-family: Georgia;
     text-indent: 40px;
     line-height: 30px;
     text-shadow:2px 2px 3px #000000;
@@ -166,15 +167,15 @@ img{
     margin-bottom: 34px;
     color:#222222;
     font-size: 30px;
-    font-family: Arial;
+    font-family: Georgia;
     text-align: center;
 }
 .aboutMe #abilities .block .ability .description span{
     display: block;
     margin-bottom: 10px;
     color:#505050;
-    font-size: 14px;
-    font-family: Arial;
+    font-size: 17px;
+    font-family: Georgia;
     font-weight: lighter;
     text-align: center; 
 }
@@ -220,10 +221,7 @@ img{
     line-height: 52px;
     color:#ffffff;
     font-size: 24px;
-    font-family: Arial;
-}
-.projects #positions #jobs .position .title#independent{
-    line-height:25px;
+    font-family: Garamond;
 }
 
 .projects #positions #jobs .position .description{
@@ -231,15 +229,20 @@ img{
     height: 192px;
 }
 .projects #positions #jobs .position .description .details{
-    padding-top: 31px;
+    padding-top: 20px;
     padding-left: 26px;
     padding-right: 20px;
     color:#ffffff;
     font-size: 14px;
-    font-family: Arial;
-    font-weight: lighter;
+    font-family: Georgia;
+    font-weight: 100;
     line-height: 24px;
 }
+
+.projects #positions #jobs .position .description .details ul{
+    padding-left: 10px;
+}
+
 .projects #positions #jobs .position .description .view{
     position:absolute;
     top:142px;
@@ -253,8 +256,8 @@ img{
     text-align: center;
     line-height: 33px;
     font-size: 16px;
-    font-family: Arial;
-    font-weight: lighter;
+    font-family: Georgia;
+    font-weight: 100;
     cursor:pointer;
 }
 .projects #positions #jobs .position#engineer .title{
@@ -468,6 +471,9 @@ img{
     margin-top:12px;
     margin-right: 12px;
     cursor: pointer;
+}
+.contactUs .content{
+    padding-top: 20px;
 }
 .contactUs .content ul{
     margin-left: 42px;
