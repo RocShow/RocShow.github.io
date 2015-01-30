@@ -101,15 +101,22 @@ $(document).ready(function(){
                     p.removeClass("active");
                     $(e.target).addClass("active");
                     $details.find('.details .name').html(val.name);
-                    $details.find('.details .item-description.duty').html(val.duty.join('<br/>'));
-                    if(val.priority){
-                        $details.find('.details .item-description.priority').html(val.priority.join('<br/>'));
-                        $('.projects #details .details .priority').show();
-                    }else{
-                        $('.projects #details .details .priority').hide();
+                    if (val.duty.length > 1 && (val.duty[0] instanceof Object)){
+                        var content = "<ol><li>";
+                        var list = [];
+                        for(var sub in val.duty){
+                            var subContent = val.duty[sub]['subtitle'];
+                            subContent += '<ul><li>';
+                            subContent += val.duty[sub].details.join('</li><li>');
+                            subContent += '</li></ul>';
+                            list.push(subContent);
+                        }
+                        content += list.join('</li><li>');
+                        content += '</li></ol>';
+                        $details.find('.details .item-description.duty').html(content);
+                    } else {
+                        $details.find('.details .item-description.duty').html('<ul><li>' + val.duty.join('</li><li>') + '</li></ul>');
                     }
-                    $details.find('.details .item-description.qulification').html(val.qulification.join('<br/>'));
-                    $details.find('.details .apply a').attr("href",val.url);
                 });
                 $details.find('.positions').append($newPosition);
             });

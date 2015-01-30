@@ -1,256 +1,88 @@
 var positions = {
     engineer:{
-        profession:'工程师职位名称',
+        profession:'Work Experience',
         menu:[{
-            name:'Web前端开发工程师 1人',
-            tag:'Web前端开发工程师',
+            name:'Software Development Intern, Sogou.com, Beijing, China <br/>05/2013-09/2013',
+            tag:'SDE Intern',
             duty:[
-            '1.负责将设计图转化成页面，使用HTML5和Javascript实现高性能的交互效果；',
-            '2.负责移动端页面的实现，可适应各种移动设备；',
-            '3.负责Web产品的架构设计和实现；',
-            '4.协助改进互联网产品的用户体验；',
-            '5.了解后端技术实施，提供前端与后端技术应用解决方案。'
-            ],
-            qulification:[
-            '1.学习能力强、有团队协作经验、逻辑清晰、有较好的审美观、愿意致力于改善用户体验；',
-            '2.计算机相关专业毕业，本科以上学历，具有web项目开发经验；',
-            '3.熟悉HTML5、CSS3相关特性，对Web技术发展有强烈兴趣；',
-            '4.精通JavaScript、Ajax等Web开发技术;',
-            '5.对解决浏览器兼容性问题有一定的经验；',
-            '6.熟悉W3C网页标准，熟悉至少一种后台开发语言；',
-            '7.了解MVC设计模式，熟悉jquery/YUI/extJS框架及其运作机理；',
-            '8.良好的英文阅读能力；',
-            '9.有大型互联网网站WEB开发经验优先，熟练使用photoshop等设计软件；',
-            '10.有开放平台应用开发相关经验尤佳。'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="Web前端开发工程师-官方网站"'
-        },{
-            name:'Android工程师 1人',
-            tag:'Android工程师',
-            duty:[
-                '1. 按照产品设计的要求，进行技术实现。完成移动终端产品Android版的开发、测试。',
-                '2. 与产品和运营人员沟通保证产品的质量和开发进度。',
-                '3. 持续的优化相关的产品的质量、性能、用户体验。',
-                '4、严格遵守职业操守，具备良好的沟通和团队合作'
-            ],
-            qulification:[
-                '1. 有扎实的数据结构和算法基础。',
-                '2. 熟悉Android平台应用软件开发和Android SDK，或者，有JAVA项目经验并且学习能力强，喜欢学习新技术。',
-                '3. 思路清晰，有良好的独立分析问题及解决问题的能力。',
-                '4. 工作积极主动，在团队合作中有责任心。',
-                '5. 有把事情做到极致的追求，不断优化程序，完善用户体验的细节。',
-                '6. 有为用户服务的精神，在工作中获得成就感。'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="Android工程师-官方网站"'
-        },{
-            name:'IOS开发工程师',
-            tag:'IOS开发工程师',
-            duty:[
-                '1.负责iPhone/iPad/iTouch平台下应用的开发；',
-                '2.与项目经理沟通，参与产品的设计和开发；',
-                '3.iOS应用开发框架，能独立开发高性能的iOS应用；',
-                '4.配合项目经理及测试团队完成软件用户体验、运行及通信速度、功能等方面的改进及提升。'
-            ],
-            qulification:[
-                '1.计算机、软件工程等相关专业毕业，有至少1年以上工作经验；',
-                '2.熟练的C，C++或objective-c编码技能；',
-                '3.热爱设计编写程序，对IT行业充满激情，有独立的用代码解决问题的能力；',
-                '4.有实际移动互联网软件设计与开发的深厚经验者优先；',
-                '5.具有良好的产品意识和沟通协作能力；',
-                '6.有创业激情，有团队精神，能够适应创业公司的节奏和压力；',
-                '7.作为主要开发人员，完整参与过一款以上IOS平台成功上线项目的研发。'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="IOS开发工程师-官方网站"'
-        },{
-            name:'数据分析工程师 1人',
-            tag:'数据分析工程师',
-            duty:[
-                '1.数据分析平台的搭建和维护',
-                '2.负责前后端日志数据收集，存储',
-                '3.负责规划基本数据组成和结构',
-                '4.负责数据分析工具的开发， 简化分析流程',
-                '5.响应产品， 运营数据统计需求',
-                '6.持续改进数据分析流程'
-            ],
-            qulification:[
-                '1.计算机软件相关学科本科以及以上学历',
-                '2.熟练掌握java语言',
-                '3.python， awk， bash等脚本语言',
-                '4.熟悉hadoop平台， mapreduce计算模型',
-                '5.了解hadoop工具链， 有hive， pig， hbase， scribe使用经验者优先。 ',
-                '6.为人积极热情， 能在压力下高效工作。 ',
-                '7.理解能力强， 对业务逻辑的变化有充分的耐心'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="数据分析工程师-官方网站"'
-        },{
-            name:'后端工程师（Java工程师）1人',
-            tag:'后端工程师',
-            duty:[
-                '1. 有扎实的数据结构和算法基础。',
-                '2. 精通Java语言本身以及工具链。 熟悉至少一种脚本语言',
-                '3. 熟悉至少一种Java开发环境， 以及SCM工具',
-                '4. 对服务能力， 后端压力有较好的认知和把控',
-                '5. 思路清晰， 有良好的独立分析问题及解决问题的能力。',
-                '6. 工作积极主动， 在团队合作中有责任心。',
-                '7. 善于时间管理， 权衡重要工作'
-            ],
-            qulification:[
-                '1.根据产品需求， 对后台功能服务进行建模设计实现',
-                '2.开发高质量的运维友好的后端程序',
-                '3.持续调优服务， 提高服务能力',
-                '4.与产品和运营人员沟通保证产品的质量和开发进度',
-                '5.业务相关UI/工具的开发',
-            ],
-            priority:[
-                '大规模后台服务开发经历者',
-                '1-2年工作经验者',
-                'Nosql DB开发/管理经历者',
-                '分布式系统调优经验者',
-                '系统调优经验者'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="后端工程师-官方网站"'
-        },{
-            name:'运维工程师 1人',
-            tag:'运维工程师',
-            duty:[
-                '1、负责IDC机房Linux业务服务器的配置，维护，监控，调优，故障排除等； ',
-                '2、大用户量下高性能服务器系统部署方案的制定及实施； ',
-                '3、保障服务器与数据库安全，检查并消除安全漏洞； ',
-                '4、数据备份、数据监控、应急响应、故障排除、编写数据分析报告等。'
-            ],
-            qulification:[
-                '1、有丰富的系统运维经验',
-                '2、精通linux操作系统, 熟练系统操作',
-                '3、熟悉网络知识',
-                '4、熟练应用常见监控系统',
-                '5、有分布式系统(hadoop, s4, storm等)管理经验者优先',
-                '6、精通bash脚本，熟悉python, perl, ruby至少一种脚本',
-                '7、有运维经验者优先'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="运维工程师-官方网站"'
-        },{
-            name:'DBA  1人',
-            tag:'DBA',
-            duty:[
-                '1、负责数据库的维护，备份，调优及架构设计',
-                '2、数据库监控， 保证数据库稳定运行',
-                '3、负责DB系统调优选型',
-                '4、负责审核业务逻辑， 调优查询条件'
-            ],
-            qulification:[
-                '1、大学本科以上学历，对技术文档编写规范有一定了解，能阅读英文技术文档 ',
-                '2、深谙Mongodb的运行机制和体系架构',
-                '3、掌握Mongodb集群构建、数据库设计与应用，根据应用需求能设计有良好容错能力的数据库系统 ',
-                '4、掌握Mongodb的管理和性能调优1年以上，或mysql oracle等2年以上数据库管理经验 ',
-                '5、掌握Mongodb的备份与恢复 ',
-                '6、了解数据库索引机制',
-                '7、熟练使用Linux操作系统，能对服务器进行日常管理 ',
-                '8、掌握Shell编程，熟练使用sed/awk等命令',
-                '9、2年以上DBA工作经验 ',
-                '10、熟悉SQL server/Mysql、mongodb，精通SQL语句 ',
-                '11、熟悉数据库的架构、熟练掌握shell或其他任意脚本语言 ',
-                '12、有大型网站DBA工作经验优先'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="DBA-官方网站"'
-        },{
-            name:'AS工程师 1人',
-            tag:'AS工程师',
-            duty:[
-                '1、开发和改进网页Flash播放器；',
-                '2、协助改进互联网产品的用户体验；',
-                '3、了解后端技术实施，提供前端与后端技术应用解决方案',
-                '4、研究各种基于网页和多种媒体格式的播放器技术'
-            ],
-            qulification:[
-                '1、学习能力强、有团队协作经验、逻辑清晰、愿意致力于改善用户体验；',
-                '2、计算机相关专业毕业，本科以上学历；',
-                '3、熟练使用as 3, 熟悉flash视频应用类开发者优先；',
-                '4、良好的英文阅读能力；',
-                '5、有开放平台应用开发相关经验尤佳'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="AS工程师-官方网站"'
-        },{
-            name:'Java实习工程师 5人',
-            tag:'Java实习工程师',
-            duty:[
-                '1、计算机相关专业，研究生1年级以上或大学4年级的学生；',
-                '2、热爱编程，能够独立通过分析与研究解决复杂的技术问题；',
-                '3、Java语言基础扎实，对JVM运行机制、内存管理等有一定研究。',
-                '4、熟悉动态网站开发、企业应用开发； ',
-                '5、责任心强，有良好的学习能力、沟通能力，具有钻研精神和团队协作精神；',
-                '6、有一定实战经验的优先；'
-            ],
-            qulification:[
-                '1、参与公司项目的开发',
-                '2、配合其他人完成公司产品研发任务',
-                '3、实习期满优秀的可转为正式员工'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="Java实习工程师-官方网站"'
+            'Designed and implemented a validation framework that automates the front-end validation of user input in web pages (Project Homepage: <a href = "https://github.com/RocShow/validator.js">https://github.com/RocShow/validator.js</a>)',
+            'Defined a library with 31 rules to enrich the validation framework',
+            'Developed a monitoring system for an existed CRM system to study user behavior and improve user experience',
+            'Improved a jQuery plugin, MultiSelect, by fixing bugs and adding new features',
+            'Wrote several reports on the company’s internal Wiki to discuss technical problems'
+            ]
+        }, {
+            name: 'Research Assistant, Lab of Computer Vision, CAU, China <br/>01/2012-06/2014',
+            tag: 'Research Assistant',
+            duty: [{
+                subtitle: 'Road extraction and detection from high-resolution remote sensing images',
+                details: [
+                    'Identified and formulated the big data problem in high-resolution remote sensing images',
+                    'Solved the big data problem via Baidu Cloud Platform and decreased the processing time from 20 minutes per image to less than 2 minutes',
+                    'Implemented algorithm of road extraction and detection by using C++ and OpenCV.'
+                ]
+            }, {
+                subtitle: 'Early Warning System for Sudden Natural Disaster sponsored by Ministry of Agriculture of China',
+                details: [
+                    'Developed a web-based data collection, transmission and process system for image data of corps, robust to various weather conditions',
+                    'Implemented digital image processing algorithm for feature detection and measurement',
+                    'Applied statistical machine learning algorithms for data fusion and classification'
+                ]
+            }]
         }]
     },
     designer:{
-        profession:'设计师',
+        profession:'Independent Projects',
         menu:[{
-            name:'UI设计工程师 1人',
-            tag:'UI设计工程师',
+            name:'UIUC Course Registration System Helper as a Chrome plugin',
+            tag:'A Chrome Plug-in',
             duty:[
-                '1、参与产品团队的前期概念界定, 讨论产品原型；',
-                '2、根据产品原型设计交互细节；',
-                '3、平衡易用性和美观确定最终可视化界面;',
-                '4、总结整理相关设计规范。'
-            ],
-            qulification:[
-                '1、熟悉iOS和Andorid的GUI',
-                '2、善于观察互联网用户体验趋势，能敏锐捕捉先进的设计理念；',
-                '3、热情主动的工作态度。',
-                '4、良好的沟通能力及团队协作精神，能承受高强度的工作压力。',
-                '5、请附带优秀作品'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="UI设计工程师-官方网站"'
+                'Implemented a chrome plugin to simulate tedious repeated mouse clicks required in the original system in order to make it easy to get to some popular pages quickly',
+                'Wrote a monitor component to track course status periodically, and notify users via email once certain course was available to register'
+            ]
+        },{
+            name:'English Study Toolbox',
+            tag:'A Web App',
+            duty:[
+                'Developed a single-page web application to automatically schedule English study plan, based on Ebbinghaus Curve',
+                'Wrote an add-on to fetch CNN Student News videos and corresponding subscripts.',
+                'Implemented the toolbox with Backbone.js for front-end page, PHP for RESTful API, and MySQL for database, based on MVC structure'
+            ]
         }]
     },
     operator:{
-        profession:'运营推广',
+        profession:'Course Projects',
         menu:[{
-            name:'高级市场经理（无线方向）2人',
-            tag:'高级市场经理',
+            name:'Pseudo TCP over UDP (CS438 Computer Networks, UIUC) Fall 2014',
+            tag:'Pseudo TCP over UDP',
             duty:[
-                '1.组建风云直播APP市场营销团队，负责风云直播产品在各大App Store、各大媒体(含微博/社区/传媒)的推广；',
-                '2.带领市场团队，策划并组织各类在线推广活动；',
-                '3.对每次市场活动的数据进行监控分析，随时跟进整体行业、竞争对手情况，不断优化推广策略。'
-            ],
-            qulification:[
-                '1.本科或以上学历，2年以上市场相关工作经验、善于商业谈判，善于沟通协调，执行力超强；',
-                '2.熟知目前流行Web2.0网站(如人人、开心、微博)、流行移动App的推广策略，有较深厚的行业关系；',
-                '3.热爱移动互联网，有创业激情，喜欢阅读，能承受巨大的工作压力，有超强的自我驱动能力'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="高级市场经理-官方网站"'
+                'Implemented TCP features including reliable transmission, congestion control and flow control in application layer over UDP',
+                'Ensured compatibility with real TCP, that it was able to evenly share channel with real TCP',
+                'Ensured high performance, that it was able to fully utilize an empty channel'
+            ]
+        },{
+            name:'iTrust (CS412 Software Engineering, UIUC) Fall 2014',
+            tag:'iTrust',
+            duty:[
+                'Added eight new features to iTrust, an open-source medical application developed by NCSU',
+                'Worked as developing leader within a group of seven students.',
+                'Did Extreme Programming (XP), including Planning Game, Pair Programming, Test Driven, Refactoring, etc.'
+            ]
         }]
     },
     administrator:{
-        profession:'行政运营',
+        profession:'Skills',
         menu:[{
-            name:'人事经理 1人',
-            tag:'人事经理',
+            name:'Profession Skills',
+            tag:'Profession Skills',
             duty:[
-                '1、制订公司的各项管理制度，并进行监督和实施；',
-                '2、制定招聘计划、招聘程序，进行初步的面试与筛选，协调、办理员工招聘、入职、离职、调任、升职等手续；',
-                '3、制定并不断完善绩效管理体系，充分调动各部门人员的工作积极性；',
-                '4、制定薪酬政策和晋升政策，组织提薪评审和晋升评审，制定公司福利政策，办理社会保障福利；',
-                '5、制订年度培训计划及活动方案，加强公司内部凝聚力建设；',
-                '6、解答员工就劳动法规、政策和公司人事制度方面的疑问，协助处理人事劳资纠纷。',
-                '7. 负责处理各种与劳动合同相关的事宜，管理劳动合同，办理用工、退工手续；'
-            ],
-            qulification:[
-                '1、人力资源管理或相关专业本科以上学历；',
-                '2、三年以上同岗位工作经验；',
-                '3、熟悉人力资源招聘、薪酬、绩效考核、培训等规定和流程，熟悉国家各项劳动人事法规政策；',
-                '4、具有较强的语言表达能力、人际交往能力、应变能力、沟通能力及解决问题的能力，有亲和力，较强的责任感与敬业精神；',
-                '5、熟练使用常用办公软件及网络应用。',
-                '6、细致、耐心、有亲和力，能承受较大工作压力；',
-                '7、能熟练使用MS office等办公软件，文笔较好者或对数据敏感者优先考虑。'
-            ],
-            url:'mailto:recruit@cloudacc-inc.com?subject="人事经理-官方网站"'
+                '<b>Language</b>: <span class="skillLabel">Java</span><span class="skillLabel">JavaScript</span><span class="skillLabel">HTML</span><span class="skillLabel">CSS</span>',
+                '<b>Framework/Lib</b>: <span class="skillLabel">jQuery</span><span class="skillLabel">Node.js</span><span class="skillLabel">Backbone.js</span><span class="skillLabel">HighCharts</span><span class="skillLabel">Hogan.js</span><span class="skillLabel">Mustache.js</span><span class="skillLabel">Sea.js</span>',
+                '<b>Database</b>: <span class="skillLabel">MySQL</span><span class="skillLabel">SQL Server</span>',
+                '<b>OS</b>: <span class="skillLabel">Mac OS X</span><span class="skillLabel">Linux</span><span class="skillLabel">Windows</span>',
+                '<b>IDE/Editor/Others</b>: <span class="skillLabel">Eclipse</span><span class="skillLabel">VIM</span><span class="skillLabel">Visual Studio</span><span class="skillLabel">IntelliJ IDEA</span><span class="skillLabel">Sublime Text</span><span class="skillLabel">Fiddler</span><span class="skillLabel">Git</span>',
+                '<b>Certification</b>: <span class="skillLabel">Red Hat Certified Engineer & System Administrator (#120-153-291)</span>'
+            ]
         }]
     }
 };

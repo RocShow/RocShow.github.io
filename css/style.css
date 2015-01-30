@@ -241,6 +241,11 @@ img{
 
 .projects #positions #jobs .position .description .details ul{
     padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.projects #positions #jobs .position .description .details ul li{
+    margin: 0px;
 }
 
 .projects #positions #jobs .position .description .view{
@@ -375,8 +380,8 @@ img{
 .projects #details .details .name{
     float:left;
     clear:none;
-    width:605px;
-    margin-top: 18px;
+    width:762px;
+    margin-top: 38px;
     margin-bottom: 22px;
     color:#207ddd;
     font-size: 24px;
@@ -412,10 +417,25 @@ img{
 .projects #details .details .item-description{
     margin-bottom: 42px;
     color:#707070;
-    font-size: 14px;
+    font-size: 15px;
     font-family: Arial;
     font-weight: lighter;
-    line-height: 24px;
+    line-height: 26px;
+}
+.projects #details .details .item-description span.skillLabel{
+    background-color:#999;
+    display:inline;
+    font-family: Georgia;
+    font-size: 100%;
+    font-weight: lighter;
+    line-height: 1;
+    color:#fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-left: 4px;
+    padding: 3px;
 }
 .projects #details .details .priority{
     display:none;
