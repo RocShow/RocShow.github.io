@@ -420,11 +420,13 @@ img{
     font-size: 15px;
     font-family: Arial;
     font-weight: lighter;
-    line-height: 26px;
+    line-height: 30px;
+    margin-top: 20px;
 }
 .projects #details .details .item-description ul li {
     list-style-type: disc;
     list-style-position: outside;
+    line-height: 26px;
 }
 .projects #details .details .item-description ol li ul li {
     list-style-type: circle;
