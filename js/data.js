@@ -2,6 +2,13 @@ var positions = {
     engineer:{
         profession:'Work Experience',
         menu:[{
+            name:'Teaching Assistant of Cloud Networking, UIUC, USA <br/>01/2015-05/2015',
+            tag:'Teaching Assistant',
+            duty:[
+                'Be helping build the Cloud Networking branch of Massive Open Online Courses of UIUC',
+                'Be taking the lean on designing the programming assignments and auto-graders, to help students understand key concepts of cloud networking'
+            ]
+        },{
             name:'Software Development Intern, Sogou.com, Beijing, China <br/>05/2013-09/2013',
             tag:'SDE Intern',
             duty:[
@@ -34,7 +41,7 @@ var positions = {
     designer:{
         profession:'Independent Projects',
         menu:[{
-            name:'UIUC Course Registration System Helper as a Chrome plugin',
+            name:'UIUC Course Registration System Assistant as a Chrome plugin',
             tag:'A Chrome Plug-in',
             duty:[
                 'Implemented a chrome plugin to simulate tedious repeated mouse clicks required in the original system in order to make it easy to get to some popular pages quickly',
