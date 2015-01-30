@@ -422,6 +422,14 @@ img{
     font-weight: lighter;
     line-height: 26px;
 }
+.projects #details .details .item-description ul li {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+.projects #details .details .item-description ol li ul li {
+    list-style-type: circle;
+    list-style-position: outside;
+}
 .projects #details .details .item-description span.skillLabel{
     background-color:#999;
     display:inline;
