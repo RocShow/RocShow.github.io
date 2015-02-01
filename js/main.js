@@ -9,8 +9,8 @@ $(document).ready(function(){
         $triangle = $('.projects .triangle'),
         $pic = $('#pics'),
         $resume = $(".Resume"),
+        $resumeA = $("a[name='resume']"),
         $resumeWrapper = $(".Resume .wrapper");
-        $resumeWrapper.load('resume.html');
     var tirangleLocations = ["0px","256px","512px","768px"];
     var firstTime = true;
 
@@ -27,11 +27,12 @@ $(document).ready(function(){
         expandBanner();
         $aboutUs.show();
     });
-        $('#banner .menu-item#resume').on('click',function(){
-        $projects.hide();
-        $aboutUs.hide();
-        shrinkBanner();
-        $resume.show();
+    $('#banner .menu-item#resume').on('click',function(e){
+        //$projects.hide();
+        //$aboutUs.hide();
+        //shrinkBanner();
+        //$resume.show();
+        window.open('./resume.pdf');
     });
     $('#banner .menu-item#contact').on('click',function(){
         $mask.show();

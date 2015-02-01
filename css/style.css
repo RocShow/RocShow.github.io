@@ -107,6 +107,13 @@ img{
     text-align: center;
     text-decoration: none;
 }
+#banner .menu-item .text a{
+    text-decoration: none;
+    color:#505050;
+}
+#banner .menu-item .text a:visited {
+    color:inherit;
+}
 #banner #projects .text{
     border-right: 1px solid rgb(216,219,222);
 }
