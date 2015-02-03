@@ -48,7 +48,7 @@ img{
     margin-left:auto;
     margin-right:auto;
     /*不透明度渐变*/
-    background:white; 
+    background:white;
     filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);/* 一些不支持背景渐变的浏览器 */ 
     background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.85) 0%,rgba(255, 255, 255, 0.9) 100%); /* IE10+ */
     background: linear-gradient(top, rgba(255, 255, 255, 0.85) 0%,rgba(255, 255, 255, 0.9) 100%); /* W3C */
@@ -92,7 +92,7 @@ img{
 #banner .menu-item{
     cursor: pointer;
     width:180px;
-    height:110px;
+    height:106px;
 }
 #banner .menu-item.hover{
     cursor: pointer;
